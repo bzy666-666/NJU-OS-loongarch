@@ -1,0 +1,4 @@
+NJU-OS is a teaching operating system developed by Nanjing University, currently available in x86 architecture.
+LoongArch is an indigenous instruction set architecture (Loongson architecture) developed by China's Loongson Technology.
+This project ported NJU-OS to the LoongArch platform using xv6-loongarch. In Ubuntu 20.04, the NJU-OS was compiled and executed via the QEMU emulator (which emulates LoongArch hardware on a PC), completing three experiments (Experiment 1 was skipped).
+
