@@ -21,7 +21,7 @@ loongarch64-unknown-linux-gnu-gcc --version
 
 下载NJU-OS-loongarch
 ```
-git clone git@github.com:username/repository-name.git
+git clone git@github.com:bzy666-666/NJU-OS-loongarch.git
 cd {choose a lab}
 ```
 
