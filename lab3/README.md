@@ -13,5 +13,5 @@ cd qemu-loongarch-runenv
 ```bash
 ./run_loongarch.sh -k ../kernel/kernel
 ```
-看到如下部分输出说明实验成功！   
+看到如下部分输出说明实验完成   
 ![](./imgs/01.png)
