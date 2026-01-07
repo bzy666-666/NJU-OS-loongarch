@@ -17,3 +17,20 @@ loongarch64-unknown-linux-gnu-gcc --version
 ```
 看到如下提示则说明已正确设置  
 ![](./imgs/01.png)
+# 编译NJU-OS内核
+
+下载NJU-OS-loongarch
+```
+git clone git@github.com:username/repository-name.git
+cd {choose a lab}
+```
+
+开始编译
+```
+make all
+```
+
+终端会输出包括如下部分的编译信息
+![](./imgs/02.png)
+
+当前路径下会生成`fs.img`文件，`\kernel`下也会生成所有链接时需要的\*.o, \*.d等文件，以及最终的`kernel`二进制文件，编译成功！
