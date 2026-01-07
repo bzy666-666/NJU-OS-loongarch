@@ -5,15 +5,15 @@ LoongArch是由我国龙芯中科研发的自主指令系统（龙芯架构）�
 
 # 配置交叉编译环境
 本实验所用的交叉编译工具链为：  
-https://github.com/loongson/build-tools/releases/download/2025.08.08/x86_64-cross-tools-loongarch64-binutils_2.45-gcc_15.1.0-glibc_2.42.tar.xz
-下载后通过共享文件夹到Ubuntu
-设置路径：
+https://github.com/loongson/build-tools/releases/download/2025.08.08/x86_64-cross-tools-loongarch64-binutils_2.45-gcc_15.1.0-glibc_2.42.tar.xz  
+下载后通过共享文件夹到Ubuntu  
+设置路径：  
 ```sh
 export PATH="{/path/to/cross-tools}/bin:$PATH"
 ```
-上述的命令只是临时设置环境变量，如需永久设置，可通过修改/etc/profile实现； 
+上述的命令只是临时设置环境变量，如需永久设置，可通过修改/etc/profile实现；   
 ```sh
 loongarch64-unknown-linux-gnu-gcc --version
 ```
-看到如下提示则说明已正确设置
+看到如下提示则说明已正确设置  
 ![](./imgs/01.png)
