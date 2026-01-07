@@ -1,11 +1,9 @@
 # 实验目的
 1. 实现一个简单的任务调度。
-2. 介绍基于时间中断进行进程切换以及纯用户态的非抢占式的线程切换完成任
-务调度的全过程。
+2. 介绍基于时间中断进行进程切换以及纯用户态的非抢占式的线程切换完成任务调度的全过程。
 # 实验内容
 1. 内核：实现进程切换机制，并提供系统调用 fork、sleep、exit。
-2. 库：对上述系统调用进行封装；实现一个用户态的线程库，完成 pthread_create、
-pthread_join、pthread_yield、pthread_exit 等接口。
+2. 库：对上述系统调用进行封装；实现一个用户态的线程库，完成 pthread_create、pthread_join、pthread_yield、pthread_exit 等接口。
 3. 用户：对上述库函数进行测试。  
 # QEMU运行lab2
 ```bash
